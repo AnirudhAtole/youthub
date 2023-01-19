@@ -1,3 +1,19 @@
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(228, 220, 220);
+}
 .search-box{
     flex: 1;
     height: 36px;
@@ -13,12 +29,6 @@
 .search-box::placeholder{
     font-family: Roboto,Arial;
     font-size: 16px;
-}
-.header{
-    height: 55px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 .left-section{
