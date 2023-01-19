@@ -13,6 +13,7 @@
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: rgb(228, 220, 220);
+    z-index: 100;
 }
 .search-box{
     flex: 1;
@@ -94,6 +95,23 @@
 .notifications-logo{
     height: 24px;
 
+}
+.notifications-icon-container{
+    position: relative;
+}
+.notifications-count{
+    font-family: Roboto,Arial;
+    position: absolute;
+    top: -3px;
+    right: -5px;
+    background-color: rgb(235, 66, 66);
+    color: white;
+    font-size: 11px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 10px;
 }
 .profile-pic{
     height: 32px;
