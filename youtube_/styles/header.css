@@ -20,15 +20,12 @@
     height: 36px;
     padding-left: 10px;
     font-size: 16px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(177, 176, 176);
+    border: 1px solid rgb(177, 176, 176);
     border-radius: 2px;
     box-shadow: inset 1px 3px 5px rgba(0,0,0,0.05);
     width: 0;
 }
 .search-box::placeholder{
-    font-family: Roboto,Arial;
     font-size: 16px;
 }
 
@@ -75,7 +72,6 @@
 }
 .search-button .tooltip ,.voice-search-button .tooltip ,.upload-icon-container .tooltip ,.youtube-app-logo-container .tooltip ,.notifications-icon-container .tooltip{
     position: absolute;
-    font-family: Roboto,Arial;
     background-color: gray;
     color: white;
     padding-top: 4px;
@@ -125,7 +121,6 @@
     position: relative;
 }
 .notifications-count{
-    font-family: Roboto,Arial;
     position: absolute;
     top: -3px;
     right: -5px;
